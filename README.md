@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: names.csv
+    - url: https://github.com/globalbioticinteractions/globalbioticinteractions/files/10289838/all_species.csv
       type: text/csv
 #   - url: https://example.org/data.tsv
 #     type: text/tab-separated-values
@@ -13,18 +13,18 @@ datasets:
 #      type: application/rss2+xml
 # edit list below to select taxonomies you'd like to work with
 taxonomies:
-    - id: itis
-      name: Integrated Taxonomic Information System
-    - id: ncbi
-      name: NCBI Taxonomy
-    - id: discoverlife
-      name: Discover Life Taxonomy
+#    - id: itis
+#      name: Integrated Taxonomic Information System
+#    - id: ncbi
+#      name: NCBI Taxonomy
+#    - id: discoverlife
+#      name: Discover Life Taxonomy
 #    - id: batnames
 #      name: Bat Names 
 #    - id: col
 #      name: Catalogue of Life
-#    - id: gbif
-#      name: GBIF Backbone Taxonomy
+    - id: gbif
+      name: GBIF Backbone Taxonomy
 #    - id: globi
 #      name: GloBI Taxon Graph
 #    - id: indexfungorum
